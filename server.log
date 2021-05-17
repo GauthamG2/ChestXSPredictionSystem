@@ -1,0 +1,1623 @@
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 200, in verify
+    sub_df = df.loc['Lung cancer']
+NameError: name 'df' is not defined
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 198, in verify
+    df = train_df.groupby('prognosis').max()
+NameError: name 'train_df' is not defined
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 208, in verify
+    i[1] = symptom_one
+TypeError: can't assign a str to a torch.FloatTensor
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 207, in verify
+    i =  torch.from_numpy(torch.zeros(43)).to(torch.float)
+TypeError: expected np.ndarray (got Tensor)
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 215, in verify
+    return model.predict_single(input, labels)
+NameError: name 'model' is not defined
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 216, in verify
+    return model.predict_single(input, labels)
+NameError: name 'model' is not defined
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 210, in verify
+    i[symptom_one] = 1
+TypeError: new(): invalid data type 'str'
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 161, in verify
+    model = Model(in_features,classes)
+NameError: name 'Model' is not defined
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 216, in verify
+    return model.predict_single(input, labels)
+NameError: name 'model' is not defined
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 170, in verify
+    model = Model(in_features, classes)
+NameError: name 'Model' is not defined
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 170, in verify
+    model = Model(in_features, classes)
+NameError: name 'in_features' is not defined
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 216, in verify
+    i = m.zeros(43)
+AttributeError: 'Model' object has no attribute 'zeros'
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 223, in verify
+    return model.predict_single(input, labels)
+NameError: name 'model' is not defined
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 170, in verify
+    model = Model(in_features, classes)
+NameError: name 'in_features' is not defined
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 170, in verify
+    model = Model(in_features, classes)
+NameError: name 'in_features' is not defined
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 170, in verify
+    model = Model(in_features, classes)
+NameError: name 'Model' is not defined
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 170, in verify
+    model = Model(in_features, classes)
+NameError: name 'in_features' is not defined
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 223, in verify
+    return model.predict_single(input, labels)
+NameError: name 'model' is not defined
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 170, in verify
+    model = Model(classes)
+NameError: name 'classes' is not defined
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 223, in verify
+    return model.predict_single(input, labels)
+AttributeError: type object 'Model' has no attribute 'predict_single'
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 11, in verify
+    label_df = pd.read_csv(label.csv)
+NameError: name 'label' is not defined
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 23, in verify
+    return model.predict_single(input, labels)
+AttributeError: 'Model' object has no attribute 'predict_single'
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 23, in verify
+    return model.Model(input, labels)
+AttributeError: 'Model' object has no attribute 'Model'
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 23, in verify
+    return model.Model.predict_single(input, labels)
+AttributeError: 'Model' object has no attribute 'Model'
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 53, in verify
+    return model.predict_single(input, labels)
+AttributeError: 'Model' object has no attribute 'predict_single'
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 53, in verify
+    return m.predict_single(input, labels)
+AttributeError: 'Model' object has no attribute 'predict_single'
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/c13837b3-8a12-4cb3-98fd-4ff007df6aba.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 84, in upload
+    im_path, im_name = mainf(saved_path)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\test_deploy.py", line 616, in mainf
+    classifier = classifier_layer(feature_map_input, roi_input, C.num_rois, nb_classes=len(C.class_mapping))
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\test_deploy.py", line 285, in classifier_layer
+    out_roi_pool = RoiPoolingConv(pooling_regions, num_rois)([base_layers, input_rois])
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\test_deploy.py", line 121, in __init__
+    self.dim_ordering =  K.common.image_dim_ordering()
+AttributeError: module 'keras.backend' has no attribute 'common'
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/c13837b3-8a12-4cb3-98fd-4ff007df6aba.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 84, in upload
+    im_path, im_name = mainf(saved_path)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\test_deploy.py", line 616, in mainf
+    classifier = classifier_layer(feature_map_input, roi_input, C.num_rois, nb_classes=len(C.class_mapping))
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\test_deploy.py", line 285, in classifier_layer
+    out_roi_pool = RoiPoolingConv(pooling_regions, num_rois)([base_layers, input_rois])
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\test_deploy.py", line 121, in __init__
+    self.dim_ordering =  K.common.image_dim_ordering()
+AttributeError: module 'keras.backend' has no attribute 'common'
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\symptomstodiseaseprediction.py", line 50, in verify
+    i[int(symptom_three)] = 1
+IndexError: index 43 is out of bounds for dimension 0 with size 43
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving C:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/c13837b3-8a12-4cb3-98fd-4ff007df6aba.jpg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\kepulk\AppData\Roaming\Python\Python38\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:/Users/kepulk/Downloads/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 84, in upload
+    im_path, im_name = mainf(saved_path)
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\test_deploy.py", line 616, in mainf
+    classifier = classifier_layer(feature_map_input, roi_input, C.num_rois, nb_classes=len(C.class_mapping))
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\test_deploy.py", line 285, in classifier_layer
+    out_roi_pool = RoiPoolingConv(pooling_regions, num_rois)([base_layers, input_rois])
+  File "c:\Users\kepulk\Downloads\Faster-R-CNN-model-deployment-using-flask-on-local-host-master\test_deploy.py", line 121, in __init__
+    self.dim_ordering =  K.common.image_dim_ordering()
+AttributeError: module 'keras.backend' has no attribute 'common'
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 73, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/symptomstodiseaseprediction.py", line 45, in verify
+    m = torch.load('model\model.pth')
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/torch/serialization.py", line 579, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'model\\model.pth'
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00028317_004.png
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 82, in upload
+    im_path, im_name = mainf(saved_path)
+ValueError: too many values to unpack (expected 2)
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/1561277508424-Source_Tree.png
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 82, in upload
+    im_path, im_name = mainf(saved_path)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/test_deploy.py", line 697, in mainf
+    print(all_dets[0][0], all_dets[0][1])
+IndexError: list index out of range
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 73, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/symptomstodiseaseprediction.py", line 50, in verify
+    i[int(symptom_three)] = 1
+ValueError: invalid literal for int() with base 10: ''
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/CHNCXR_0485_1.png
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 82, in upload
+    im_path, im_name = mainf(saved_path)
+ValueError: too many values to unpack (expected 2)
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00028581_000.png
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 82, in upload
+    im_path, im_name = mainf(saved_path)
+ValueError: too many values to unpack (expected 2)
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00028600_001.png
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 84, in upload
+    im_path, im_name = mainf(saved_path)
+ValueError: too many values to unpack (expected 2)
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Consolidation.Effusion.Mass.Nodule.00017395_003.png
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 84, in upload
+    im_path, im_name = mainf(saved_path)
+ValueError: too many values to unpack (expected 2)
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00028582_001.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00028580_000.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Atelectasis.Consolidation.Emphysema.00014725_008.png
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 85, in upload
+    if signs in disease:
+UnboundLocalError: local variable 'signs' referenced before assignment
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Atelectasis.Emphysema.00022932_001.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Atelectasis.Emphysema.00010017_003.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Atelectasis.Consolidation.Effusion.Emphysema.00011683_007.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Atelectasis.Consolidation.Effusion.Emphysema.00011683_007.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Atelectasis.Consolidation.Infiltration.Mass.Pneumonia.00016778_014.png
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 88, in upload
+    signs = mainf(saved_path)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/test_deploy.py", line 697, in mainf
+    print(all_dets[0][0], all_dets[0][1])
+IndexError: list index out of range
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person5_bacteria_19.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person29_bacteria_144.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person8_bacteria_37.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person3_bacteria_10.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person13_bacteria_49.jpeg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1953, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1968, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 2127, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The return type must be a string, dict, tuple, Response instance, or WSGI callable, but it was a list.
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person28_bacteria_143.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00029180_002.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00029178_000.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/symptomstodiseaseprediction.py", line 48, in verify
+    i[int(symptom_one)] = 1
+IndexError: index 43 is out of bounds for dimension 0 with size 43
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00028190_000.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00028190_000.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 75, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/symptomstodiseaseprediction.py", line 50, in verify
+    i[int(symptom_three)] = 1
+ValueError: invalid literal for int() with base 10: ''
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00028173_010.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00028173_007.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person30_bacteria_152.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/CHNCXR_0112_0.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person1_bacteria_2.jpeg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 97, in upload
+    return rneder_template('hello.html', output=disease_not_predicted)
+NameError: name 'rneder_template' is not defined
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person3_bacteria_11.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person3_bacteria_11.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person3_bacteria_13.jpeg
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 87, in upload
+    signs = mainf(saved_path)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/test_deploy.py", line 607, in mainf
+    X, ratio = format_img(img, C)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/test_deploy.py", line 515, in format_img
+    img, ratio = format_img_size(img, C)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/test_deploy.py", line 487, in format_img_size
+    (height,width,_) = img.shape
+AttributeError: 'NoneType' object has no attribute 'shape'
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person3_bacteria_10.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person3_bacteria_10.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person2_bacteria_3.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person2_bacteria_3.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person2_bacteria_3.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person1_bacteria_2.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person13_bacteria_49.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person3_bacteria_10.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person3_bacteria_10.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person25_bacteria_121.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person25_bacteria_121.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00028876_064.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00029375_000.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00028559_000.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00028563_000.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00028580_000.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00029375_000.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Atelectasis.Infiltration.Mass.00000902_001.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Atelectasis.Emphysema.Mass.Pleural_Thickening.Pneumothorax.00019373_035.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Atelectasis.Emphysema.Mass.00011804_014.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00029481_001.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00029375_000.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Atelectasis.Emphysema.Infiltration.Mass.Pleural_Thickening.Pneumothorax.00019373_007.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00028987_010.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00029398_000.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00029178_000.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/CHNCXR_0078_0.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/CHNCXR_0128_0.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00029398_000.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00029398_000.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00028175_000.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00028217_000.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00028227_000.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00028192_000.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Tuberculosis-22.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Tuberculosis-60.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Tuberculosis-60.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/4ceeb362df213ccf2c0b4d6388bba1_jumbo.jpg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Tuberculosis-36.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Tuberculosis-3452.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Tuberculosis-2333.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Tuberculosis-3414.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Tuberculosis-3327.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Tuberculosis-20.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Tuberculosis-3441.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Tuberculosis-3439.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Tuberculosis-1383.png
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 87, in upload
+    signs = mainf(saved_path)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/test_deploy.py", line 697, in mainf
+    print(all_dets[0][0], all_dets[0][1])
+IndexError: list index out of range
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Tuberculosis-1005.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Tuberculosis-1174.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Tuberculosis-1185.png
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 87, in upload
+    signs = mainf(saved_path)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/test_deploy.py", line 697, in mainf
+    print(all_dets[0][0], all_dets[0][1])
+IndexError: list index out of range
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/Tuberculosis-1441.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/CHNCXR_0112_0.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00029374_000.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/CHNCXR_0154_0.png
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person3_bacteria_10.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master
+/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/
+saving /Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/uploads/00028217_000.png
+Exception on /signup [GET]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/server.py", line 74, in signup
+    return render_template('signup.html')
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/gautham/Desktop/Faster-R-CNN-model-deployment-using-flask-on-local-host-master/flask/lib/python3.8/site-packages/flask/templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: signup.html
+Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Chest XS System/chestXS_server.py", line 61, in index
+    return render_template('hello.html')
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: hello.html
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Chest XS System/chestXS_server.py", line 105, in upload
+    return render_template('hello.html', output=output)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/templating.py", line 138, in render_template
+    ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/jinja2/environment.py", line 930, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/jinja2/environment.py", line 883, in get_template
+    return self._load_template(name, self.make_globals(globals))
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/jinja2/environment.py", line 857, in _load_template
+    template = self.loader.load(self, name, globals)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/jinja2/loaders.py", line 115, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/templating.py", line 60, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/templating.py", line 89, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: hello.html
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_10.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_10.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_10.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_10.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_10.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person13_bacteria_49.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028227_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028227_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028227_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028192_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_10.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028192_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028192_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Chest XS System/chestXS_server.py", line 98, in upload
+    imagedisease = sign
+NameError: name 'sign' is not defined
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Chest XS System/chestXS_server.py", line 99, in upload
+    for i in disease.values():
+AttributeError: 'list' object has no attribute 'values'
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028192_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/Fibrosis.00028175_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028227_000.png
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Chest XS System/chestXS_server.py", line 107, in upload
+    print(i)
+NameError: name 'i' is not defined
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028227_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028192_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Chest XS System/chestXS_server.py", line 80, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three)
+  File "/Users/gautham/Desktop/Chest XS System/symptomstodiseaseprediction.py", line 43, in verify
+    m = torch.load('model/model.pth')
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/torch/serialization.py", line 579, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'model/model.pth'
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System
+Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/gautham/Desktop/Chest XS System/flask/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/gautham/Desktop/Chest XS System/chestXS_server.py", line 82, in upload
+    disease = verify(symptom_one, symptom_two, symptom_three, symptom_four, symptom_five)
+TypeError: verify() takes 3 positional arguments but 5 were given
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/person3_bacteria_13.jpeg
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/Atelectasis.Emphysema.Infiltration.Mass.Pleural_Thickening.Pneumothorax.00019373_007.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028227_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028227_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png
+/Users/gautham/Desktop/Chest XS System
+/Users/gautham/Desktop/Chest XS System/uploads/
+saving /Users/gautham/Desktop/Chest XS System/uploads/00028217_000.png

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1 style="text-align: center; margin-top: 20px;" class="text-muted">CHEST XS</h1>
+            <h6 style="text-align: center" class="text-muted">Chest disease prediction system using chest X-ray and symptoms
+                </h2>
+        </div>
+        <button type="button" onClick="refreshPage()">Reload</button>
+        <div style="border: 1px solid; margin-top: 20px;">
+            <div class="header">
+                <h4 style="text-align: center; margin-top: 20px;" class="text-muted">Upload your chest X-ray image</h3>
+            </div>
+            <hr style="margin: 20px 10px 20px;" />
+            <div>
+                <form action="/upload" method="post" enctype="multipart/form-data">
+                    <div class="row">
+                        <div style="width: 50%; margin: 0 auto;" class="col-lg-4">
+                            <input type="file" class="form-control" accept="image/*" name="image" id="image" required><br />
+
+                            <h3 style="text-align: center" class="text-muted">Select the symptoms</h3>
+                            <hr />
+                            <select name="symptom_one" class="form-select" required>
+                                <option value="">Select a symptom 1</option>
+                                <option value="1">Cough</option>
+                                <option value="2">Bloody Mucus</option>
+                                <option value="3">Fever</option>
+                                <option value="4">Sweating</option>
+                                <option value="5">Shaking chills</option>
+                                <option value="6">Shortness of breath</option>
+                                <option value="7">Rapid breathing</option>
+                                <option value="8">Shallow breathing</option>
+                                <option value="9">Sharp chest pain</option>
+                                <option value="10">Stabbing chest pain</option>
+                                <option value="11">Loss of appetite</option>
+                                <option value="12">Low energy</option>
+                                <option value="13">Fatigue</option>
+                                <option value="14">Nausea</option>
+                                <option value="15">Vomiting</option>
+                                <option value="16">Confusion</option>
+                                <option value="17">Chest pain</option>
+                                <option value="18">Diarrhea</option>
+                                <option value="19">Low temperature</option>
+                                <option value="20">Weight loss</option>
+                                <option value="21">Nights sweats</option>
+                                <option value="22">Bone pain</option>
+                                <option value="23">Coughing up blood</option>
+                                <option value="24">Feeling tired</option>
+                                <option value="25">Chills</option>
+                                <option value="26">Long cough</option>
+                                <option value="27">chest infection</option>
+                                <option value="28">Pain while breathing</option>
+                                <option value="29">Persistent breathlessness</option>
+                                <option value="30">Change in appearance</option>
+                                <option value="31">Difficulty in swallowing</option>
+                                <option value="32">Wheezing</option>
+                                <option value="33">Hoarse voice</option>
+                                <option value="34">Swelling of face neck</option>
+                                <option value="35">Shoulder pain</option>
+                                <option value="36">Nervous system change</option>
+                                <option value="37">Organ color change</option>
+                                <option value="38">Cough with mucus</option>
+                                <option value="39">Tightness on chest</option>
+                                <option value="40">Sewlling in ankles and feet</option>
+                                <option value="41">Whistling sound while breathing</option>
+                                <option value="42">Long term cough</option>
+                            </select>
+                            <br>
+                            <select name="symptom_two" class="form-select">
+                                <option value="">Select a symptom 2</option>
+                                <option value="1">Cough</option>
+                                <option value="2">Bloody Mucus</option>
+                                <option value="3">Fever</option>
+                                <option value="4">Sweating</option>
+                                <option value="5">Shaking chills</option>
+                                <option value="6">Shortness of breath</option>
+                                <option value="7">Rapid breathing</option>
+                                <option value="8">Shallow breathing</option>
+                                <option value="9">Sharp chest pain</option>
+                                <option value="10">Stabbing chest pain</option>
+                                <option value="11">Loss of appetite</option>
+                                <option value="12">Low energy</option>
+                                <option value="13">Fatigue</option>
+                                <option value="14">Nausea</option>
+                                <option value="15">Vomiting</option>
+                                <option value="16">Confusion</option>
+                                <option value="17">Chest pain</option>
+                                <option value="18">Diarrhea</option>
+                                <option value="19">Low temperature</option>
+                                <option value="20">Weight loss</option>
+                                <option value="21">Nights sweats</option>
+                                <option value="22">Bone pain</option>
+                                <option value="23">Coughing up blood</option>
+                                <option value="24">Feeling tired</option>
+                                <option value="25">Chills</option>
+                                <option value="26">Long cough</option>
+                                <option value="27">chest infection</option>
+                                <option value="28">Pain while breathing</option>
+                                <option value="29">Persistent breathlessness</option>
+                                <option value="30">Change in appearance</option>
+                                <option value="31">Difficulty in swallowing</option>
+                                <option value="32">Wheezing</option>
+                                <option value="33">Hoarse voice</option>
+                                <option value="34">Swelling of face neck</option>
+                                <option value="35">Shoulder pain</option>
+                                <option value="36">Nervous system change</option>
+                                <option value="37">Organ color change</option>
+                                <option value="38">Cough with mucus</option>
+                                <option value="39">Tightness on chest</option>
+                                <option value="40">Sewlling in ankles and feet</option>
+                                <option value="41">Whistling sound while breathing</option>
+                                <option value="42">Long term cough</option>
+                            </select>
+                            <br>
+                            <select name="symptom_three" class="form-select">
+                                <option value="">Select a symptom 3</option>
+                                <option value="1">Cough</option>
+                                <option value="2">Bloody Mucus</option>
+                                <option value="3">Fever</option>
+                                <option value="4">Sweating</option>
+                                <option value="5">Shaking chills</option>
+                                <option value="6">Shortness of breath</option>
+                                <option value="7">Rapid breathing</option>
+                                <option value="8">Shallow breathing</option>
+                                <option value="9">Sharp chest pain</option>
+                                <option value="10">Stabbing chest pain</option>
+                                <option value="11">Loss of appetite</option>
+                                <option value="12">Low energy</option>
+                                <option value="13">Fatigue</option>
+                                <option value="14">Nausea</option>
+                                <option value="15">Vomiting</option>
+                                <option value="16">Confusion</option>
+                                <option value="17">Chest pain</option>
+                                <option value="18">Diarrhea</option>
+                                <option value="19">Low temperature</option>
+                                <option value="20">Weight loss</option>
+                                <option value="21">Nights sweats</option>
+                                <option value="22">Bone pain</option>
+                                <option value="23">Coughing up blood</option>
+                                <option value="24">Feeling tired</option>
+                                <option value="25">Chills</option>
+                                <option value="26">Long cough</option>
+                                <option value="27">chest infection</option>
+                                <option value="28">Pain while breathing</option>
+                                <option value="29">Persistent breathlessness</option>
+                                <option value="30">Change in appearance</option>
+                                <option value="31">Difficulty in swallowing</option>
+                                <option value="32">Wheezing</option>
+                                <option value="33">Hoarse voice</option>
+                                <option value="34">Swelling of face neck</option>
+                                <option value="35">Shoulder pain</option>
+                                <option value="36">Nervous system change</option>
+                                <option value="37">Organ color change</option>
+                                <option value="38">Cough with mucus</option>
+                                <option value="39">Tightness on chest</option>
+                                <option value="40">Sewlling in ankles and feet</option>
+                                <option value="41">Whistling sound while breathing</option>
+                                <option value="42">Long term cough</option>
+                            </select>
+                            <br>
+                            <select name="symptom_four" class="form-select">
+                                <option value="">Select a symptom 3</option>
+                                <option value="1">Cough</option>
+                                <option value="2">Bloody Mucus</option>
+                                <option value="3">Fever</option>
+                                <option value="4">Sweating</option>
+                                <option value="5">Shaking chills</option>
+                                <option value="6">Shortness of breath</option>
+                                <option value="7">Rapid breathing</option>
+                                <option value="8">Shallow breathing</option>
+                                <option value="9">Sharp chest pain</option>
+                                <option value="10">Stabbing chest pain</option>
+                                <option value="11">Loss of appetite</option>
+                                <option value="12">Low energy</option>
+                                <option value="13">Fatigue</option>
+                                <option value="14">Nausea</option>
+                                <option value="15">Vomiting</option>
+                                <option value="16">Confusion</option>
+                                <option value="17">Chest pain</option>
+                                <option value="18">Diarrhea</option>
+                                <option value="19">Low temperature</option>
+                                <option value="20">Weight loss</option>
+                                <option value="21">Nights sweats</option>
+                                <option value="22">Bone pain</option>
+                                <option value="23">Coughing up blood</option>
+                                <option value="24">Feeling tired</option>
+                                <option value="25">Chills</option>
+                                <option value="26">Long cough</option>
+                                <option value="27">chest infection</option>
+                                <option value="28">Pain while breathing</option>
+                                <option value="29">Persistent breathlessness</option>
+                                <option value="30">Change in appearance</option>
+                                <option value="31">Difficulty in swallowing</option>
+                                <option value="32">Wheezing</option>
+                                <option value="33">Hoarse voice</option>
+                                <option value="34">Swelling of face neck</option>
+                                <option value="35">Shoulder pain</option>
+                                <option value="36">Nervous system change</option>
+                                <option value="37">Organ color change</option>
+                                <option value="38">Cough with mucus</option>
+                                <option value="39">Tightness on chest</option>
+                                <option value="40">Sewlling in ankles and feet</option>
+                                <option value="41">Whistling sound while breathing</option>
+                                <option value="42">Long term cough</option>
+                            </select>
+                            <br>
+                            <select name="symptom_five" class="form-select">
+                                <option value="">Select a symptom 3</option>
+                                <option value="1">Cough</option>
+                                <option value="2">Bloody Mucus</option>
+                                <option value="3">Fever</option>
+                                <option value="4">Sweating</option>
+                                <option value="5">Shaking chills</option>
+                                <option value="6">Shortness of breath</option>
+                                <option value="7">Rapid breathing</option>
+                                <option value="8">Shallow breathing</option>
+                                <option value="9">Sharp chest pain</option>
+                                <option value="10">Stabbing chest pain</option>
+                                <option value="11">Loss of appetite</option>
+                                <option value="12">Low energy</option>
+                                <option value="13">Fatigue</option>
+                                <option value="14">Nausea</option>
+                                <option value="15">Vomiting</option>
+                                <option value="16">Confusion</option>
+                                <option value="17">Chest pain</option>
+                                <option value="18">Diarrhea</option>
+                                <option value="19">Low temperature</option>
+                                <option value="20">Weight loss</option>
+                                <option value="21">Nights sweats</option>
+                                <option value="22">Bone pain</option>
+                                <option value="23">Coughing up blood</option>
+                                <option value="24">Feeling tired</option>
+                                <option value="25">Chills</option>
+                                <option value="26">Long cough</option>
+                                <option value="27">chest infection</option>
+                                <option value="28">Pain while breathing</option>
+                                <option value="29">Persistent breathlessness</option>
+                                <option value="30">Change in appearance</option>
+                                <option value="31">Difficulty in swallowing</option>
+                                <option value="32">Wheezing</option>
+                                <option value="33">Hoarse voice</option>
+                                <option value="34">Swelling of face neck</option>
+                                <option value="35">Shoulder pain</option>
+                                <option value="36">Nervous system change</option>
+                                <option value="37">Organ color change</option>
+                                <option value="38">Cough with mucus</option>
+                                <option value="39">Tightness on chest</option>
+                                <option value="40">Sewlling in ankles and feet</option>
+                                <option value="41">Whistling sound while breathing</option>
+                                <option value="42">Long term cough</option>
+                            </select>
+                            <br>
+
+                            <div style="width: 20%; margin: 0 auto;">
+                                <button type="submit" class="btn btn-primary">Upload</button>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-8">
+                            <img id="imagen"><br />
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="predictedDisease">
+            {% if output %}
+            <div style="border: 1px solid; margin: 20px 300px 10px 300px">
+                <p style="text-align: center; margin-top: 20px; font-weight: bold;">PREDICTED DISEASE</p>
+                <h4 style="text-align: center; margin-top: 20px; font-weight: bold;">{{ output }}</h4>
+                <button type="button" onClick="goBack()">Go Back</button>
+            </div>
+            {% else %}
+            <div style="border: 1px solid; margin: 20px 300px 10px 300px">
+                <p style="text-align: center; margin-top: 20px; font-weight: bold;">PREDICTED DISEASE</p>
+            </div>
+            {% endif %}
+        </div>
+
+
+
+    </div>
+
+    <div>
+        <h6 style="text-align: right; margin: 20px 20px;" class="text-muted">FOR MORE INFORMATION ABOUT THE SYSTEM
+            <a type="submit" href="moreInfo">INFO</a>
+            <!-- <button type="submit" class="btn btn-primary">INFO</button> -->
+        </h6>
+
+    </div>
+</body>
+<script>
+    function goBack() {
+        window.history.back();
+    }
+
+    function refreshPage() {
+        window.location.reload();
+    }
+
+    function init() {
+        var inputFile = document.getElementById('image');
+        inputFile.addEventListener('change', mostrarImagen, false);
+    }
+
+    function mostrarImagen(event) {
+        var file = event.target.files[0];
+        var reader = new FileReader();
+        reader.onload = function(event) {
+            var img = document.getElementById('image');
+            img.src = event.target.result;
+            img.width = 500;
+            img.height = 500;
+        }
+        reader.readAsDataURL(file);
+    }
+    window.addEventListener('load', init, false);
+</script>
+
+</html>
